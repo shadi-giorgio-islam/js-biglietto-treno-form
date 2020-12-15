@@ -17,10 +17,13 @@ h1{
   padding: 20px;
 }
 
-.wrapper{
-  background-color: white;
+.container{
   max-width: 1300px;
   margin: auto;
+}
+
+.wrapper{
+  background-color: white;
   border-radius: 5px;
   box-shadow: 2px 2px 6px rgba(0, 0, 0, 0.5);
   padding: 20px;
@@ -80,4 +83,48 @@ select:focus {
   background-color: rgb(8, 73, 156);
   color: white;
   text-align: center;
+}
+
+h2{
+  color: white;
+  text-transform: uppercase;
+  font-size: 30px;
+  padding: 20px;
+}
+h3{
+  font-size: 20px;
+  color: black;
+  text-transform: uppercase;
+}
+
+#biglietto{
+  background-color: white;
+  padding: 20px;
+  text-align: left;
+}
+
+.dettaglio{
+  border: 1px solid grey;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: nowrap;
+}
+
+.dettaglio .inner-dettaglio{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: nowrap;
+}
+.dettaglio .inner-dettaglio:first-child{
+  background-color: grey;
+}
+.dettaglio .inner-dettaglio h3{
+  padding: 20px 20px;
+}
+.dettaglio .inner-dettaglio p{
+  padding: 20px 20px;
 }
