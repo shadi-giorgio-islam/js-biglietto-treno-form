@@ -122,6 +122,12 @@ h3{
 .dettaglio .inner-dettaglio:first-child{
   background-color: grey;
 }
+.dettaglio .inner-dettaglio:first-child p{
+  font-size: 20px;
+  font-weight: 700;
+  color: black;
+  text-transform: uppercase;
+}
 .dettaglio .inner-dettaglio h3{
   padding: 20px 20px;
 }
