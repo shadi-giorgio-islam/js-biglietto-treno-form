@@ -3,3 +3,81 @@
   padding: 0;
   box-sizing: border-box;
 }
+
+body{
+  background-color: rgb(8, 73, 156);
+  text-align: center;
+  font-family: 'Roboto', sans-serif;
+}
+
+h1{
+  color: white;
+  text-transform: uppercase;
+  font-size: 30px;
+  padding: 20px;
+}
+
+.wrapper{
+  background-color: white;
+  max-width: 1300px;
+  margin: auto;
+  border-radius: 5px;
+  box-shadow: 2px 2px 6px rgba(0, 0, 0, 0.5);
+  padding: 20px;
+}
+
+.dati{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: nowrap;
+}
+
+.dati .inner-dati{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.dati .inner-dati label{
+  color: rgb(8, 73, 156);
+  font-weight: 500;
+  margin: 10px 0;
+}
+
+.buttons{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: nowrap;
+}
+
+.btn{
+  font-weight: 500;
+  background-color: lightgrey;
+  color: rgb(8, 73, 156);
+  border-radius: 5px;
+  border: 1px solid grey;
+  padding: 10px;
+  margin: 20px 10px;
+}
+
+input::placeholder{
+  text-align: center;
+}
+
+input, select{
+  border-radius: 5px;
+  border: 1px solid rgb(8, 73, 156);
+  padding: 5px;
+}
+
+input:focus,
+select:focus {
+  background-color: rgb(8, 73, 156);
+  color: white;
+  text-align: center;
+}

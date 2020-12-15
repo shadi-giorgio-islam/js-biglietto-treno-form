@@ -6,8 +6,39 @@
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <title>Acquista il tuo biglietto</title>
   <link rel="stylesheet" href="css/style.css">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700;900&display=swap" rel="stylesheet">
 </head>
 <body>
+  <!-- inizio wrapper -->
+  <h1>Calcola il prezzo del tuo biglietto</h1>
+  <div class="wrapper">
+    <!-- inizio form dati -->
+    <div class="dati">
+      <div class="inner-dati">
+        <label>Nome</label>
+        <input id="nome" type="text" placeholder="Inserisci il nome">
+      </div>
+      <div class="inner-dati">
+        <label>Km da percorrere</label>
+        <input id="km" type="number" placeholder="Inserisci i Km">
+      </div>
+      <div class="inner-dati">
+        <label>Fascia d'età</label>
+        <select id="eta">
+          <option value="minorenne">Minorenne</option>
+          <option value="maggiorenne">Maggiorenne</option>
+          <option value="over">Over 65</option>
+        </select>
+      </div>
+    </div>
+    <div class="buttons">
+      <div class="btn" id="genera">Genera</div>
+      <div class="btn" id="annulla">Annulla</div>
+    </div>
+    <!-- fine form dati -->
+  </div>
+  <!-- fine wrapper -->
 <!-- javascript -->
 <script src="js/script.js" charset="utf-8"></script>
 </body>
